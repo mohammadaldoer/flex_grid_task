@@ -1,0 +1,64 @@
+.main_div{
+    margin: 0 auto;
+    background-color: white;
+    display: grid;
+    grid-template-areas: 'jj jj''fn ln''em job''ad ad''cit pin''dt cv';
+    gap: 0px;
+    width: 800px;
+    padding-left: 10px;
+    border-radius:20px 20px 20px 20px ;
+    -webkit-border-radius:20px 20px 20px 20px ;
+    -moz-border-radius:20px 20px 20px 20px ;
+    -ms-border-radius:20px 20px 20px 20px ;
+    -o-border-radius:20px 20px 20px 20px ;
+}
+.main_div div{
+    padding: 10px;
+}
+.apply{
+   align-self:flex-end;
+}
+.jobapp{
+    grid-area: jj;
+
+}
+.first_name{
+    grid-area: fn;
+    margin:0;
+    width: 350px;
+}
+.last_name{
+    grid-area: ln;
+    width: 350px;
+
+}
+.Email{
+    grid-area: em;
+    width: 400px;
+
+}
+.Job_role{
+    grid-area: job;
+    width: 400px;
+
+}
+.address{
+    grid-area: ad;
+
+}
+.city{
+    grid-area: cit;
+
+}
+.pincode{
+    grid-area: pin;
+
+}
+.date{
+    grid-area: dt;
+
+}
+.cv{
+    grid-area: cv;
+
+}

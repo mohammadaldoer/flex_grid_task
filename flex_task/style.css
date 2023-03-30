@@ -1,0 +1,269 @@
+/*question 1*/
+.container{
+    width: 500px;
+    height: 500px;
+    background-color: greenyellow;
+    border: 5px solid pink;
+    margin: 0 auto;
+
+}
+.container div{
+    width:80px;
+    height: 80px;
+    display: flex;
+    margin: 200px auto;
+    border: 5px solid brown;
+}
+/*question 2*/
+.container_1 {
+    background-color: orange;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+ul{
+    list-style: none;
+}
+.first_list{
+    width: 20%;
+}
+.second_list{
+    width: 20%;
+}
+.first_list ul li{
+background-color: beige;
+width: 55px;
+height: 30px;
+padding-top: 9px;
+padding-left: 3px;
+}
+.second_list ul li{
+    background-color: beige;
+    width: 55px;
+    height: 30px;
+    padding-top: 9px;
+    padding-left: 3px;
+    }
+.first_list ul {
+    width: 30%px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap:1px;
+    padding: auto;
+    }
+    .second_list ul {
+        width: 70%;
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        gap:8px;
+        padding: auto;
+
+        }
+        .logo{
+           
+            width: 40%;
+            align-self: center;
+            margin-left: 290px;
+        }
+        .logo h1::after {
+            content: "";
+            border-right: 1px solid black;
+            height: 200px;
+            display:inline;
+          }
+.logo h1{
+   
+    margin: 5px;
+    background-color: aqua;
+    color:blue;
+    width: 120px;
+    height: 60px;
+    padding-top: 9px;
+    padding-left: 3px; 
+    
+}
+/*question 3*/
+.q3_div{
+    width: 100%;
+    height:1000px;
+    background-color: gray;
+}
+.q3_header{
+    width: 100%;
+    height: 7%;
+    background-color:white;
+
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;   
+}
+.first_div ul li img{
+    width: 100px;
+    height: 30px;
+}
+.first_div ul li a{
+    color: purple;
+}
+.first_div ul {
+    width: 300px;
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+padding: 10px;;
+}
+.second_div ul li img{
+ width: 35px;
+ height: 25px;
+}
+.second_div ul li p{
+    color : white;
+    background-color: blueviolet;
+    width: 180px;
+    height: 25px;
+    text-align: center;
+    border-radius: 20px 20px 20px 20px;
+    -webkit-border-radius: 20px 20px 20px 20px;
+    -moz-border-radius: 20px 20px 20px 20px;
+    -ms-border-radius: 20px 20px 20px 20px;
+    -o-border-radius: 20px 20px 20px 20px;
+    margin-top: 1px;
+}
+.second_div ul{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap:12px;
+    padding-bottom: 30px;
+}
+/*question 4*/
+.q4_main_div{
+margin: 0 auto;
+    display: flex;
+flex-direction: column;
+justify-content: stretch;
+gap: 1px;
+}
+.q4_first_div{
+    background-color: pink;
+width: 900px;
+height: 150px;
+margin: 0;
+}
+.q4_first_div p{
+   text-align: center;
+}
+.q4_second_div{
+    display: flex;
+
+}
+.q4_second_div p{
+width: 150px;
+height: 150px;
+text-align: center;    
+margin: 0;
+
+}
+.q4_third_div{
+text-align: center;
+}
+.q4_third_div{
+    width: 900px;
+    height: 150px;
+    background-color: blueviolet;
+}
+/* question 5*/
+.body{
+    background-color: black;
+}
+.q5_header ul{
+   display:  flex;
+   justify-content: flex-end ;
+gap: 25px;
+}
+.q5_header ul li{
+    color: white;
+ }
+ .q5_div1 div p{
+    color: white;
+    margin: -1px;
+ }
+ .q5_div1 div p span{
+    color: blue;
+ }
+ .q5_div1 {
+    margin-top: 150px ;
+    margin-left: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 8px;
+ }
+ .q5_div1 div button{
+    width: 160px;
+    height: 35px;
+    padding: 12px;
+background-color: rgb(39, 36, 36); 
+color: white;
+}
+.q5_second_div{
+    padding: 7px;
+    width: 400px;
+    height: 30px;
+    border: 1px solid white;
+    border-radius: 20px 20px 20px 20px;
+    display: flex;
+    justify-content: flex-end;
+    -webkit-border-radius:;
+    -moz-border-radius:;
+    -ms-border-radius:;
+    -o-border-radius:;
+}
+.q5_second_div img{
+    width: 18px;
+    height: 18px;
+}
+.im_1{
+    flex:0.5;
+}
+.p_1{
+    flex:7
+}
+.im_1{
+    flex:1;
+}
+.im_1{
+    flex:1;
+}
+.q6_maon_div{
+    padding: 1;
+    margin: 1;
+}
+
+.cont_div_1{
+    display: flex;
+    justify-content: stretch;
+margin: 1px;
+}
+.parag div{
+    margin: 10px;
+    padding: 10px;
+    margin-left: 5px;
+    width: 350px;
+    height: 300px;
+    background-color: white;
+    border: 1px solid black;
+}
+.parag{
+    padding: 1px;
+    margin: 1px;
+    display: flex;
+    flex-direction: row;
+    justify-content: stretch;
+    gap: 10px;
+    flex-wrap:wrap;
+
+}
